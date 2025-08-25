@@ -91,6 +91,23 @@
 
 
 
+.navbar .navbar-nav .nav-link {
+    padding: 25px 15px;
+    color: white !important;
+    font-weight: 500;
+
+    /* Text outline (stroke) */
+    text-stroke: 1px black;           /* Future standard */
+    
+    /* Fallback for Firefox */
+    text-shadow: 
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+
 
     </style>
 
@@ -114,8 +131,12 @@
                 <small class="ms-4"><i class="fa fa-clock text-primary me-2"></i>9.00 am - 9.00 pm</small>
             </div>
             <div class="col-lg-6 px-5 text-end">
-                <small><i class="fa fa-envelope text-primary me-2"></i>info@example.com</small>
-                <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</small>
+                <small style="color: black;
+    padding: 2px;
+    background: #f3f3f3;"><i class="fa fa-envelope text-primary me-2"></i>info@example.com</small>
+                <small style="color: black;
+    padding: 2px;
+    background: #f3f3f3;" class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</small>
             </div>
         </div>
 
