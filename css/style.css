@@ -1,6 +1,7 @@
 /********** Template CSS **********/
+
 :root {
-    --primary: #355EFC;
+    --primary: #f0bf45;
     --secondary: #E93C05;
     --tertiary: #555555;
     --light: #DFE4FD;
@@ -41,6 +42,7 @@ h6,
 
 
 /*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -56,6 +58,7 @@ h6,
 
 
 /*** Button ***/
+
 .btn {
     transition: .5s;
     font-weight: 500;
@@ -93,6 +96,7 @@ h6,
 
 
 /*** Navbar ***/
+
 .fixed-top {
     transition: .5s;
 }
@@ -129,7 +133,6 @@ h6,
         border-top: 1px solid rgba(0, 0, 0, .07);
         background: #FFFFFF;
     }
-
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
@@ -145,7 +148,6 @@ h6,
         transition: .5s;
         opacity: 0;
     }
-
     .navbar .nav-item:hover .dropdown-menu {
         transform: rotateX(0deg);
         visibility: visible;
@@ -156,6 +158,7 @@ h6,
 
 
 /*** Header ***/
+
 .carousel-caption {
     top: 0;
     left: 0;
@@ -194,7 +197,6 @@ h6,
         position: relative;
         min-height: 450px;
     }
-    
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -221,12 +223,14 @@ h6,
 
 
 /*** Facts ***/
+
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(rgb(209 192 51 / 99%), rgb(128 73 18)), url(../img/bg.png);
 }
 
 
 /*** Callback ***/
+
 .callback {
     position: relative;
 }
@@ -238,12 +242,13 @@ h6,
     height: 50%;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(rgb(209 192 51 / 99%), rgb(128 73 18)), url(../img/bg.png);
     z-index: -1;
 }
 
 
 /*** Feature ***/
+
 .feature .feature-box,
 .feature .feature-box * {
     transition: .5s;
@@ -260,6 +265,7 @@ h6,
 
 
 /*** Service ***/
+
 .service .nav .nav-link {
     transition: .5s;
 }
@@ -279,6 +285,7 @@ h6,
 
 
 /*** Project ***/
+
 .project-item,
 .project-item .project-img {
     position: relative;
@@ -360,9 +367,10 @@ h6,
 
 
 /*** Team ***/
+
 .team-item {
     position: relative;
-    padding: 4rem 0;
+    padding: 3.5rem 0;
 }
 
 .team-item img {
@@ -416,6 +424,7 @@ h6,
 
 
 /*** Testimonial ***/
+
 .testimonial-item {
     position: relative;
     text-align: center;
@@ -502,6 +511,7 @@ h6,
 
 
 /*** Footer ***/
+
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
