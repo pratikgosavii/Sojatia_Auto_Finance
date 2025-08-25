@@ -66,7 +66,7 @@ h6,
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--light);
+    color: white;
 }
 
 .btn-square {
@@ -362,7 +362,7 @@ h6,
 .project-carousel .owl-nav .owl-prev:hover,
 .project-carousel .owl-nav .owl-next:hover {
     background: var(--primary);
-    color: var(--light);
+    color: white;
 }
 
 
@@ -419,7 +419,7 @@ h6,
 
 .team-item .team-social .btn:hover {
     background: var(--primary);
-    color: var(--light);
+    color: white;
 }
 
 
@@ -517,7 +517,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--light);
+    color: white;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -538,12 +538,12 @@ h6,
 }
 
 .copyright {
-    color: var(--light);
+    color: white;
     background: #000B1C;
 }
 
 .copyright a {
-    color: var(--light);
+    color: white;
 }
 
 .copyright a:hover {
