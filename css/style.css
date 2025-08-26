@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 
 :root {
-    --primary: #f0bf45;
+    --primary: #b98422;
     --secondary: #E93C05;
     --tertiary: #555555;
     --light: #DFE4FD;
@@ -242,7 +242,7 @@ h6,
     height: 50%;
     top: 0;
     left: 0;
-    background: linear-gradient(rgb(209 192 51 / 99%), rgb(128 73 18)), url(../img/bg.png);
+    background: linear-gradient(rgb(185 132 34 / 99%), rgb(69 43 28)), url(../img/bg.png);
     z-index: -1;
 }
 
